@@ -5,3 +5,4 @@
 - [freehtml5.com](https://freehtml5.co/)
 - [htmltemplates.co](https://htmltemplates.co/portfolio-html-templates)
 - [html5up.net](htmltemplates)
+- [blurry video background](https://www.pexels.com/search/videos/blur/)
