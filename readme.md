@@ -7,3 +7,4 @@
 - [html5up.net](htmltemplates)
 - [blurry video background](https://www.pexels.com/search/videos/blur/)
 - [swiper](https://swiperjs.com/demos)
+- [flexible-jekyll](https://github.com/artemsheludko/flexible-jekyll)
