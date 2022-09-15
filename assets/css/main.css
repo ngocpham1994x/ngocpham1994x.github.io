@@ -1374,7 +1374,7 @@
 	  }
 
 
-	  .section-title {
+	.section-title {
 		text-align: center;
 	  }
 
@@ -1502,11 +1502,6 @@
 		bottom: 1%;
 		cursor: pointer;
 		}
-
-
-	.blog {
-		text-align: center;
-	}
 
 	.see-all {
 		align-self: center;
