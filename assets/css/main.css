@@ -11,6 +11,7 @@
 /* Variables */
 :root {
 	--bg-even: #1b1b1f;
+	--bg-footer: grayscale;
 	--btn-style1: #7f92cf;
 	--btn-style1-hover:#92a2d6;
 	--btn-style1-active:#6c82c8;
@@ -31,6 +32,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		scroll-behavior: smooth;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1332,10 +1334,10 @@
 
 	@media screen and (max-width: 736px) {
 
-	#banner {
-		min-height: 0;
-		padding: 6em 2em 4em 2em;
-	}
+		#banner {
+			min-height: 0;
+			padding: 6em 2em 4em 2em;
+		}
 
 		#banner br {
 			display: none;
@@ -1347,49 +1349,49 @@
 	opacity: 1;
 	}
 
-/* Main */
+/* about-me */
+	  #about{
+		height: auto;
+		width: auto;
+		display:flex;
+		flex-direction: row;
+		justify-content:space-evenly;
+		margin: auto 200px auto 200px;
+	}
 
-	#main {
+	  #about-pic{
+		border-radius: 10%;
+		display: block;
+		max-width:300px;
+		max-height:300px;
+		margin: auto 50px auto auto;
+	  }
+	  
+	  #about-text{
+		text-align: left;
+		margin: auto auto auto 50px;
+	  }
+
+
+	  .section-title {
+		text-align: center;
+	  }
+
+/* odd */
+
+	.odd-section {
 		padding: 4em 0 2em 0;
 	}
 
 	@media screen and (max-width: 736px) {
 
-	#main {
-	padding: 3em 0 1em 0;
-	}
-
-	}
-
-	#main .inner {
-	width: 90%;
-	max-width: 80em;
-	margin: 0 auto;
-	}
-
-	@media screen and (max-width: 480px) {
-
-	#main .inner {
-		width: 95%;
-	}
-
-	}
-
-	/* odd */
-
-	#odd-section {
-		padding: 4em 0 2em 0;
-	}
-
-	@media screen and (max-width: 736px) {
-
-		#odd-section {
+		.odd-section {
 			padding: 3em 0 1em 0;
 		}
 
 	}
 
-	#odd-section .inner {
+	.odd-section .inner {
 		width: 90%;
 		max-width: 80em;
 		margin: 0 auto;
@@ -1397,7 +1399,7 @@
 
 	@media screen and (max-width: 480px) {
 
-		#odd-section .inner {
+		.odd-section .inner {
 			width: 95%;
 		}
 
@@ -1405,20 +1407,20 @@
 
 /* even */
 
-	#even-section {
+	.even-section {
 		padding: 4em 0 2em 0;
 		background-color: var(--bg-even);
 	}
 
 	@media screen and (max-width: 736px) {
 
-		#main {
+		.even-section {
 			padding: 3em 0 1em 0;
 		}
 
 	}
 
-	#even-section .inner {
+	.even-section .inner {
 		width: 90%;
 		max-width: 80em;
 		margin: 0 auto;
@@ -1426,7 +1428,7 @@
 
 	@media screen and (max-width: 480px) {
 
-		#even-section .inner {
+		.even-section .inner {
 			width: 95%;
 		}
 
@@ -1436,7 +1438,7 @@
 
 	#footer {
 		padding: 4em 0 2em 0;
-		background-color: #1b1b1f;
+		background-color: var(--bg-footer);
 		text-align: center;
 	}
 
@@ -1476,6 +1478,29 @@
 		}
 
 	}
+
+	#footer .more {
+		background-image: url("images/arrow-down.svg");
+		background-position: center 1.35em;
+		background-repeat: no-repeat;
+		background-size: auto;
+		border: 1px solid #fff;
+		border-radius: 100%;
+		color: rgba(255, 255, 255, 0.75);
+		display: block;
+		height: 4em;
+		text-indent: 4em;
+		overflow: hidden;
+		white-space: nowrap;
+		width: 4em;
+		z-index: 2;
+		margin: 0 auto 2em auto;
+		position: fixed;
+		right: 2.25%;
+		bottom: 1%;
+		cursor: pointer;
+		}
+
 
 /* Swiper */
 .swiper {
