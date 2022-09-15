@@ -1,0 +1,20 @@
+/* Swiper */
+.swiper-button-next, .swiper-button-prev {
+    color: black;
+}
+
+.swiper-pagination-bullet{
+    height: 7px;
+    width: 26px;
+    border-radius: 25px;
+}
+
+.swiper-pagination-bullet-active {
+    color: #fff;
+    background: black;
+}
+
+.swiper-slide:hover {
+    transition: 250ms all;
+    transform: scale(1.2);  /* zooming effect */
+}
