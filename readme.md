@@ -14,3 +14,4 @@ My [personal blog](https://ngocpham1994x.vercel.app) is powered by [Notion.so](h
 ## References
 - [swiper](https://swiperjs.com/demos)
 - [templated.co](https://templated.co)
+- [jquery.poptrox.min.js](https://github.com/ajlkn/jquery.poptrox)
