@@ -968,7 +968,7 @@
 	.button:hover {
 		background-color: var(--btn-style1-hover);
 		transition: 250ms all;
-    	transform: scale(1.2);
+    	transform: scale(1.1);
 	}
 
 	input[type="submit"]:active,
