@@ -13,8 +13,3 @@
     color: #fff;
     background: black;
 }
-
-.swiper-slide:hover {
-    transition: 250ms all;
-    transform: scale(1.2);  /* zooming effect */
-}
