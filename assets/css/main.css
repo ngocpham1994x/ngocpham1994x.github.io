@@ -1507,8 +1507,8 @@
 		background-repeat: no-repeat;
 		background-size: auto;
 		border: hidden;
-		/* border: 1px solid #fff;
-		border-radius: 100%; */
+		/* border: 1px solid #fff; */
+		/* border-radius: 100%; */
 		color: rgba(255, 255, 255, 0.75);
 		display: block;
 		height: 4em;
