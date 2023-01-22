@@ -1381,6 +1381,8 @@
 		text-align: center;
 	  }
 
+	.title{ display:inline-block; width:100px; }
+
 	  @media screen and (max-width: 980px) {
 		#about {
 			flex-direction: column;
