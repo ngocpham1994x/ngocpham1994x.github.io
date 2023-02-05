@@ -6,12 +6,13 @@ var i = 0,
 
 // Typerwrite text content. Use a pipe to indicate the start of the second line "|".  
 var textArray = [
-    "Process Automation (DCS/PLC).",
-    "Instrumentation & Control.",
-    "Boiler.",
-    "Capstone Project.",
-    "Embedded Projects.",
-    "App Development."
+    "Robotics",
+    "Collection machenism",
+    "Autonomy",
+    "Path-planning",
+    "Object detection",
+    "User Interface",
+    "NodeJS"
 ];
 
 // Speed (in milliseconds) of typing.
