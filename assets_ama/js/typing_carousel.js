@@ -6,11 +6,10 @@ var i = 0,
 
 // Typerwrite text content. Use a pipe to indicate the start of the second line "|".  
 var textArray = [
-    "Robotics.",
-    "Collection Mechanism.",
-    "Autonomy.",
-    "Path Planning.",
-    "Object Detection.",
+    "Web Applications.",
+    "Industrial Automation.",
+    "PLC/DCS.",
+    "Programming.",
     "User Interface."
 ];
 
